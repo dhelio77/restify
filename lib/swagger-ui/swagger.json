@@ -1,0 +1,33 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Simple Restify API with Swagger Implementation",
+    "description": "API for posting, updating and getting articles.",
+    "version": "1.0"
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": ["http", "https"],
+  "paths": {
+    "/articles": {
+      "get": {
+        "summary": "Returns a list of articles.",
+        "tags": [
+          "/articles"
+        ],
+        "description": "Returns all the list of **articles** *without any parameters*",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "default": {
+            "description": "Invalid request."
+          },
+          "200": {
+            "description": "Successful request."
+          }
+        }
+      }
+    }
+  }
+}

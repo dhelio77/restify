@@ -1,0 +1,30 @@
+{
+  "name": "restify",
+  "version": "1.0.0",
+  "description": "restify in code",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "restify"
+  ],
+  "author": "rancheta",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.9",
+    "bunyan-winston-adapter": "^0.2.0",
+    "hexo": "^3.3.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.3",
+    "mongoose-api-query": "^0.1.1-pre",
+    "mongoose-createdmodified": "0.0.2",
+    "restify": "^4.3.0",
+    "restify-errors": "^4.3.0",
+    "swagger-jsdoc": "^1.9.2",
+    "swagger-tools": "^0.10.1",
+    "winston": "^2.3.1"
+  }
+}
